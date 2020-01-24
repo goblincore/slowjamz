@@ -23,10 +23,11 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import { NavigationNativeContainer } from '@react-navigation/native';
 
 const App: () => React$Node = () => {
   return (
-    <>
+    <NavigationNativeContainer>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
@@ -68,7 +69,7 @@ const App: () => React$Node = () => {
           </View>
         </ScrollView>
       </SafeAreaView>
-    </>
+      </NavigationNativeContainer>
   );
 };
 
