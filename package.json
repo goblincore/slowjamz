@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-navigation/native": "^5.0.0-alpha.29",
     "add": "^2.0.6",
+    "expo-av": "^8.0.0",
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-gesture-handler": "^1.5.3",

@@ -24,7 +24,13 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import { NavigationNativeContainer } from '@react-navigation/native';
-
+import {
+  Asset,
+  Constants,
+  FileSystem,
+  Permissions,
+} from 'react-native-unimodules';
+import { Audio, Video } from 'expo-av';
 const App: () => React$Node = () => {
   return (
     <NavigationNativeContainer>
