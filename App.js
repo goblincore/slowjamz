@@ -99,7 +99,7 @@ const ICON_LOOP_ONE_BUTTON = new Icon(
   77,
   35
 );
-
+3
 const ICON_MUTED_BUTTON = new Icon(
   require("./assets/images/muted_button.png"),
   67,
@@ -145,8 +145,8 @@ const PLAYLIST = [
     true
   ),
   new PlaylistItem(
-    "Podington Bear - “Rubber Robot”",
-    "https://s3.amazonaws.com/exp-us-standard/audio/playlist-example/Podington_Bear_-_Rubber_Robot.mp3",
+    "Savage Garden - Truly Madly Deeply”",
+    "https://drive.google.com/uc?id=19VxFJ7l3Wr_Ak2SpzPyQnhCNUE-YhBsQ",
     false
   )
 ];
